@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Phone</title>
+</head>
+
+<body>
+    <div class="add-panel">
+        <label for="name">
+            Name: <input class="add-panel__field" type="text" name="name" id="name" required>
+        </label>
+
+        <label for="number">
+            Number: <input class="add-panel__field" type="text" id="number" value="" required>
+        </label>
+
+        <label for="email">
+            Email: <input class="add-panel__field" type="email" name="email" id="email" required>
+        </label>
+
+        <div class="btn-part">
+            <button type="submit" class="add-panel__keys_save" id="save" onclick="addContact()">SAVE</button>
+        </div>
+    </div>
+    <div class="view-panel">
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
